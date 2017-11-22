@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[[UIAlertView alloc] initWithTitle:@"提示" message:@"Hello World" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

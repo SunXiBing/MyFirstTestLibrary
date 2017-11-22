@@ -1,0 +1,6 @@
+framework module MyFirstTestLibrary {
+  umbrella header "MyFirstTestLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
