@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of MyFirstTestLibrary.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sunxibing/MyFirstTestLibrary",
+  "homepage": "https://github.com/SunXiBing/MyFirstTestLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sunxibing": "sunxibing20171011@credithc.com"
+    "sunxibing": "499490153@qq.com"
   },
   "source": {
-    "git": "https://github.com/sunxibing/MyFirstTestLibrary.git",
+    "git": "https://github.com/SunXiBing/MyFirstTestLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BZHttphelper.h"
 
 FOUNDATION_EXPORT double MyFirstTestLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyFirstTestLibraryVersionString[];
