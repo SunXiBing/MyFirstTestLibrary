@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BZHttphelper : NSObject
+@interface BZHttphelper : UIView
 
-- (void)getWithUrl:(NSString *)url withCompletion:(void (^)(id responseObject))completion failed:(void (^)(NSError *error))failed;
-
+- (void)showMessage;
 @end
