@@ -10,5 +10,6 @@ target 'MyFirstTestLibrary_Example' do
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  pod 'ASIHTTPRequest'
   end
 end
