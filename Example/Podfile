@@ -11,5 +11,7 @@ target 'MyFirstTestLibrary_Example' do
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
   pod 'ASIHTTPRequest'
+  pod 'MBProgressHUD'
+
   end
 end

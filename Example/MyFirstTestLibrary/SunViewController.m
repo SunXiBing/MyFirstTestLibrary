@@ -7,6 +7,7 @@
 //
 
 #import "SunViewController.h"
+#import <MyFirstTestLibrary/BZHttphelper.h>
 
 @interface SunViewController ()
 
@@ -18,8 +19,21 @@
 {
     [super viewDidLoad];
     
-    [[[UIAlertView alloc] initWithTitle:@"提示" message:@"Hello World" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(50, 200, 200, 100)];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+-(void)click
+{
+    BZHttphelper *help = [[BZHttphelper alloc] init];
+    [self.view addSubview:help];
+    [help showMessage];
+
 }
 
 - (void)didReceiveMemoryWarning
