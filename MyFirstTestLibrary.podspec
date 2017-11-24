@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'MyFirstTestLibrary'
   s.version          = '0.1.5'
-  s.summary          = 'A short description of MyFirstTestLibrary.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Creat By SunXiBing'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        只是自己开发的一个东西
                        DESC
 
-  s.homepage         = 'https://github.com/SunXiBing/MyFirstTestLibrary.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/SunXiBing/MyFirstTestLibrary'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunxibing' => '499490153@qq.com' }
-  s.source           = { :git => 'https://github.com/SunXiBing/MyFirstTestLibrary.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/SunXiBing/MyFirstTestLibrary.git',:tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MyFirstTestLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyFirstTestLibrary' => ['MyFirstTestLibrary/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

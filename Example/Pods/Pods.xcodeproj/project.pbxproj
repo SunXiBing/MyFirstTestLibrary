@@ -194,7 +194,6 @@
 		D180489445C2C507332A6EE964ADA1E5 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 16839CCFEA29356C616114776536AE82 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D46E889E1DA8D918666BD654E7F25C5A /* ASIS3Bucket.h in Headers */ = {isa = PBXBuildFile; fileRef = E750089DB8EED9B1CF035B4D11F70776 /* ASIS3Bucket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D490834AA1304BF36991A257F3366648 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D6E55680CFFFF50516CCE0092BD32 /* SpectaDSL.m */; };
-		D56E99D71C7BFF74646A57E08CAF43C4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F4D0ECE46ADAE29CFE8F13E95D69E3 /* ReplaceMe.m */; };
 		D73897AF6EC28BCBBD33D60889CC7EDD /* ASIS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2190FA02566ED0E90270DABDEC8E3136 /* ASIS3ServiceRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D741B9A7E32095F0EDB26A52B8820437 /* ASIHTTPRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B552A7FB08A9DE2E9AD1772B0B9870DE /* ASIHTTPRequest-dummy.m */; };
 		D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B0DDF781753F9D3456A295BD21FA87 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -392,7 +391,6 @@
 		481FB8F0B3D1ADF122E06AB041F7248B /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		48E4CD25554549F72FCA6A6C7D064DFF /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		48E5120C7B82EDCEFAFD45CC77986313 /* ASIHTTPRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASIHTTPRequest.modulemap; sourceTree = "<group>"; };
-		48F4D0ECE46ADAE29CFE8F13E95D69E3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyFirstTestLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4B9C81EBDFC5D9AA6E90167BDD8D1A27 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		4C846C30B9301558C879DAF32A396332 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		4DEF68454BAC03259AD14C8F67D7DDB3 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
@@ -848,7 +846,6 @@
 			children = (
 				1AAA73510A97D3E2AF462EEFC238DE75 /* BZHttphelper.h */,
 				C14FB6A4165D82EEAB57754027DAD776 /* BZHttphelper.m */,
-				48F4D0ECE46ADAE29CFE8F13E95D69E3 /* ReplaceMe.m */,
 				757E2C423EDE955EA765C74A94F10D79 /* Support Files */,
 			);
 			name = MyFirstTestLibrary;
@@ -1699,7 +1696,6 @@
 				C192440C1FC6A078007BED7A /* MBProgressHUD-dummy.m in Sources */,
 				2CA7C5C5DC50CA472EE77FFFC3F637BD /* BZHttphelper.m in Sources */,
 				A90B35AE6A019C51D31B79DAD7D6DF54 /* MyFirstTestLibrary-dummy.m in Sources */,
-				D56E99D71C7BFF74646A57E08CAF43C4 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

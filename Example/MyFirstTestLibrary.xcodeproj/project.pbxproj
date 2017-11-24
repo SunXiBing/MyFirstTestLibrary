@@ -559,10 +559,11 @@
 				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = "MyFirstTestLibrary/MyFirstTestLibrary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cn.MyFirstTestLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puhui.hyd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9fb192ca-2019-4625-b0f3-02033c09c310";
 				PROVISIONING_PROFILE_SPECIFIER = wz_ph_development_iphone;
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -579,9 +580,10 @@
 				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = "MyFirstTestLibrary/MyFirstTestLibrary-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cn.MyFirstTestLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puhui.hyd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
