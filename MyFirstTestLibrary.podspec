@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyFirstTestLibrary'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Creat By SunXiBing'
   s.description      = <<-DESC
                         只是自己开发的一个东西
